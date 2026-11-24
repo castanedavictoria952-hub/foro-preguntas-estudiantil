@@ -7,9 +7,9 @@ está organizado el proyecto y qué reglas sigue.
 ## Contexto
 
 - Proyecto académico de **Lenguaje de Programación** (5.º semestre, Ingeniería de Sistemas).
-- La persona que programa es **estudiante**: está aprendiendo. Tu rol es enseñar y revisar, no
+- La persona que programa es **Victoria Castañeda**: está aprendiendo. Tu rol es enseñar y revisar, no
   resolverle la materia.
-- Producto: <!-- el alumno describe aquí su producto en 2 líneas -->
+- Producto: **Foro de Preguntas Estudiantil**, una plataforma web inspirada en Stack Overflow donde los estudiantes publican dudas académicas, responden aportes, votan por las mejores soluciones y buscan temas por etiquetas o palabras clave. Permite organizar el conocimiento colaborativo por materias y destacar las respuestas verificadas de la comunidad universitaria.
 
 ## Reglas obligatorias
 
@@ -55,11 +55,11 @@ docs/                  PRD, arquitectura, decisiones (ADR), ingeniería inversa,
 
 ## Comandos
 
-| Comando | Qué hace |
-| --- | --- |
-| `docker compose up -d` | Levanta PostgreSQL |
-| `npm run migrate` | Aplica migraciones |
-| `npm run dev` | API + frontend en modo desarrollo |
-| `npm run check` | Lint + tipos + pruebas unitarias (correr antes de cada commit) |
-| `npm run test:integration` | Pruebas de API contra PostgreSQL |
-| `npm run test:e2e` | Pruebas en navegador con Playwright |
+| Comando                    | Qué hace                                                       |
+| -------------------------- | -------------------------------------------------------------- |
+| `docker compose up -d`     | Levanta PostgreSQL                                             |
+| `npm run migrate`          | Aplica migraciones                                             |
+| `npm run dev`              | API + frontend en modo desarrollo                              |
+| `npm run check`            | Lint + tipos + pruebas unitarias (correr antes de cada commit) |
+| `npm run test:integration` | Pruebas de API contra PostgreSQL                               |
+| `npm run test:e2e`         | Pruebas en navegador con Playwright                            |
